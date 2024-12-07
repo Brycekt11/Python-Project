@@ -11,7 +11,7 @@ robot = RDK.Item('', itemtype=2)  # Default open cell
 if not robot.Valid():
     st.error("No valid robot found.")
     st.stop() 
-#connects the the robot 
+#connects to the robot 
 
 # Streamlit setup
 st.title("Cartesian Position and Live Feed")
